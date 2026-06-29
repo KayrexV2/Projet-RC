@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+
+      
+      {"when": "1","model": {"type": "minecraft:model",
+          "model": "weapons:item/pk1onde"}},
+
+
+      {"when": "10004","model": {"type": "minecraft:model",
+        "model": "pouvoir:item/soutientpouvoir/bouclier"}}
+
+      
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/rabbit_foot"
+    }
+  },
+  "hand_animation_on_swap": false
+}

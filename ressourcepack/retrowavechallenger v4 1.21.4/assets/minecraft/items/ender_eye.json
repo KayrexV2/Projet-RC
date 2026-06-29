@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+
+      
+      {"when": "1001","model": {"type": "minecraft:model",
+      "model": "utilitaire:item/hypercube-inactif"}},
+      {"when": "1002","model": {"type": "minecraft:model",
+      "model": "utilitaire:item/hypercube-actif"}},
+
+
+      {"when": "2001","model": {"type": "minecraft:model",
+      "model": "weapons:item/v21/skin1/v21-1-noskop"}},
+      {"when": "2002","model": {"type": "minecraft:model",
+      "model": "weapons:item/v21/skin1/v21-1-skop"}}
+
+      
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/ender_eye"
+    }
+  },
+  "hand_animation_on_swap": false
+}

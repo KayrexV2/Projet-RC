@@ -1,0 +1,10 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "item/bow_pulling_0"
+    },
+    "overrides":[
+        {"predicate":{"custom_model_data":1},"model":"weapons:item/arcelite0"
+        }
+    ]
+}

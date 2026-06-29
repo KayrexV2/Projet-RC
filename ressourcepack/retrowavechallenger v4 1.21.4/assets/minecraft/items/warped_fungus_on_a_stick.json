@@ -1,0 +1,113 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+
+      {"when": "1",   "model": {"type": "minecraft:model",
+      "model": "utilitaire:item/cniv1-v1"}},
+      {"when": "2",   "model": {"type": "minecraft:model",
+      "model": "utilitaire:item/cniv1-v2"}},
+      {"when": "3",   "model": {"type": "minecraft:model",
+      "model": "utilitaire:item/cniv1-v3"}},
+      {"when": "4",   "model": {"type": "minecraft:model",
+      "model": "utilitaire:item/cniv1-v4"}},
+      {"when": "5",   "model": {"type": "minecraft:model",
+      "model": "utilitaire:item/cniv1-v5"}},
+      {"when": "6",   "model": {"type": "minecraft:model",
+      "model": "utilitaire:item/cniv1-v6"}},
+      {"when": "7",   "model": {"type": "minecraft:model",
+      "model": "utilitaire:item/cniv1-v7"}},
+      {"when": "8",   "model": {"type": "minecraft:model",
+      "model": "utilitaire:item/cniv1-v8"}},
+      {"when": "9",   "model": {"type": "minecraft:model",
+      "model": "utilitaire:item/cniv1-v9"}},
+      {"when": "10",   "model": {"type": "minecraft:model",
+      "model": "utilitaire:item/cniv1-v10"}},
+      
+      {"when": "11",   "model": {"type": "minecraft:model",
+      "model": "utilitaire:item/cniv1-v11"}},
+          
+      
+      {"when": "100",  "model": {"type": "minecraft:model",
+      "model": "utilitaire:item/celluleenergie/celluleenergie"}},
+          
+      
+      {"when": "1001",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/pk41/skin1/protokol-41_noscop"}},
+      {"when": "1002",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/pk41/skin1/protokol-41_scop"}},
+      {"when": "1003",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/pk41/skin1/protokol-41_tire1_noscop"}},
+      {"when": "1004",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/pk41/skin1/protokol-41_tire1_recul_noscop"}},
+      {"when": "1005",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/pk41/skin1/protokol-41_tire1_scop"}},
+      {"when": "1006",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/pk41/skin1/protokol-41_tire2_noscop"}},
+      {"when": "1007",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/pk41/skin1/protokol-41_tire2_recul_noscop"}},
+      {"when": "1008",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/pk41/skin1/protokol-41_tire2_scop"}},
+      {"when": "1009",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/pk41/skin1/protokol-41_vide_noscop"}},
+      {"when": "1010",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/pk41/skin1/protokol-41_vide_scop"}},
+          
+
+      {"when": "2001",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/sniper/skin1/sniper-no-skop"}},
+      {"when": "2002",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/sniper/skin1/sniper-skop"}},
+      {"when": "2003",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/sniper/skin1/sniper-no-skop-vide"}},
+      {"when": "2004",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/sniper/skin1/sniper-no-skop-surchauffe"}},
+      {"when": "2005",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/sniper/skin1/sniper-skop-vide"}},
+      {"when": "2006",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/sniper/skin1/sniper-skop-surchauffe"}},
+      {"when": "2007",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/sniper/skin1/sniper-no-skop-recule"}},
+
+          
+
+      {"when": "3001",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/mousket/skin1/mousket_noskop"}},
+      {"when": "3002",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/mousket/skin1/mousket_noskop_surchauffe"}},
+      {"when": "3003",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/mousket/skin1/mousket_noskop_surchauffe_recul"}},
+      {"when": "3004",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/mousket/skin1/mousket_noskop_surchauffe_refroidissement"}},
+      {"when": "3005",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/mousket/skin1/mousket_skop"}},
+      {"when": "3006",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/mousket/skin1/mousket_skop_surchauffe"}},
+      {"when": "3007",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/mousket/skin1/mousket_skop_vide"}},
+      {"when": "3008",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/mousket/skin1/mousket_vide"}},
+          
+      
+      {"when": "4001",  "model": {"type": "minecraft:model",
+      "model": "weapons:item/hs/hs1"}},
+          
+      
+      {"when": "10001",  "model": {"type": "minecraft:model",
+      "model": "pouvoir:item/soutientpouvoir/soutien1"}},
+      {"when": "10002",  "model": {"type": "minecraft:model",
+      "model": "pouvoir:item/soutientpouvoir/soutien1_pied_ouvert"}},
+      {"when": "10003",  "model": {"type": "minecraft:model",
+      "model": "pouvoir:item/soutientpouvoir/soutien1_bouclier_ouvert"}}
+
+
+      
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/warped_fungus_on_a_stick"
+    }
+  },
+  "hand_animation_on_swap": false
+}

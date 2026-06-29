@@ -1,0 +1,26 @@
+{
+  "ambiante.bp-start-2": {
+    "category": "master",
+    "sounds": [
+      "ambiant_sounds:bp_start_2"
+    ]
+  },
+  "ambiante.bp-start-1": {
+    "category": "master",
+    "sounds": [
+      "ambiant_sounds:bp_start_1"
+    ]
+  },
+  "ambiante.bp-marche": {
+    "category": "master",
+    "sounds": [
+      "ambiant_sounds:bp_marche"
+    ]
+  },
+  "ambiante.bp-finish": {
+    "category": "master",
+    "sounds": [
+      "ambiant_sounds:bp_finish"
+    ]
+  }
+}

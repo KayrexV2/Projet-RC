@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/ender_eye"
+  },
+  "overrides":[
+    {"predicate":{"custom_model_data":1001},"model":"utilitaire:item/hypercube-inactif"},
+    {"predicate":{"custom_model_data":1002},"model":"utilitaire:item/hypercube-actif"},
+
+    {"predicate":{"custom_model_data":2001},"model":"weapons:item/v21/skin1/v21-1-noskop"},
+    {"predicate":{"custom_model_data":2002},"model":"weapons:item/v21/skin1/v21-1-skop"}
+
+
+  ]
+}

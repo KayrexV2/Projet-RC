@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/warped_fungus_on_a_stick"
+  },
+  "overrides":[
+    {"predicate":{"custom_model_data":1},"model":"utilitaire:item/cniv1-v1"},
+    {"predicate":{"custom_model_data":3},"model":"utilitaire:item/cniv1-v3"},
+    {"predicate":{"custom_model_data":4},"model":"utilitaire:item/cniv1-v4"},
+    {"predicate":{"custom_model_data":5},"model":"utilitaire:item/cniv1-v5"},
+    {"predicate":{"custom_model_data":6},"model":"utilitaire:item/cniv1-v6"},
+    {"predicate":{"custom_model_data":7},"model":"utilitaire:item/cniv1-v7"},
+    {"predicate":{"custom_model_data":8},"model":"utilitaire:item/cniv1-v8"},
+    {"predicate":{"custom_model_data":9},"model":"utilitaire:item/cniv1-v9"},
+    {"predicate":{"custom_model_data":10},"model":"utilitaire:item/cniv1-v10"},
+
+    {"predicate":{"custom_model_data":100},"model":"utilitaire:item/celluleenergie/celluleenergie"},
+
+
+    {"predicate":{"custom_model_data":1001},"model":"weapons:item/pk41/skin1/protokol-41"},
+    {"predicate":{"custom_model_data":1002},"model":"weapons:item/pk41/skin1/protokol-41_tire1"},
+    {"predicate":{"custom_model_data":1003},"model":"weapons:item/pk41/skin1/protokol-41_tire2"},
+    {"predicate":{"custom_model_data":1004},"model":"weapons:item/pk41/skin1/protokol-41_vide"},
+
+
+    {"predicate":{"custom_model_data":2001},"model":"weapons:item/sniper/skin1/sniper-no-skop"},
+    {"predicate":{"custom_model_data":2002},"model":"weapons:item/sniper/skin1/sniper-skop"},
+
+
+    {"predicate":{"custom_model_data":3001},"model":"weapons:item/mousket/skin1/mousket"},
+    {"predicate":{"custom_model_data":3002},"model":"weapons:item/mousket/skin1/mousket_skop"},
+    {"predicate":{"custom_model_data":3003},"model":"weapons:item/mousket/skin1/mousket_vide"},
+    {"predicate":{"custom_model_data":3004},"model":"weapons:item/mousket/skin1/mousket_skop_vide"},
+
+
+    {"predicate":{"custom_model_data":4001},"model":"weapons:item/hs/hs1"},
+
+
+    {"predicate":{"custom_model_data":10001},"model":"utilitaire:item/soutientpouvoir/soutien1"},
+    {"predicate":{"custom_model_data":10002},"model":"utilitaire:item/soutientpouvoir/soutien1_pied_ouvert"},
+    {"predicate":{"custom_model_data":10003},"model":"utilitaire:item/soutientpouvoir/soutien1_bouclier_ouvert"}
+
+
+
+
+  ]
+}
+

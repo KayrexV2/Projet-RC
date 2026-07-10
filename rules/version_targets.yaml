@@ -1,0 +1,13 @@
+default:
+  edition: "Minecraft Java Edition"
+  source_version: "1.21.4"
+  target_version: "26.1"
+  bedrock: false
+
+minecraft_java_26_1:
+  datapack_format: "101.1"
+  resourcepack_format: "84"
+  notes:
+    - "Verify exact formats against official/Misode sources before changing pack.mcmeta."
+    - "Strict JSON applies to packs from 1.21.6+."
+    - "Use Java Edition syntax only unless Bedrock is explicitly requested."

@@ -1,0 +1,29 @@
+minecraft_sources:
+  primary:
+    - name: Minecraft.net
+      use: releases, snapshots, pre-releases, release candidates, official changelogs
+    - name: Feedback Minecraft
+      use: technical changelogs, experimental changes, known issues
+    - name: Fabric Docs
+      use: Fabric, Loom, mappings, modding, data generation, testing
+  secondary_technical:
+    - name: Minecraft Wiki
+      use: commands, data packs, resource packs, item components, tags, mechanics
+    - name: Misode Versions
+      use: registries, pack versions, version comparisons, technical formats
+    - name: Misode Generators
+      use: datapack JSON formats
+    - name: MCStacker
+      use: command syntax, item components, summon, give
+    - name: NBT2Components
+      use: NBT to item components conversion
+  community:
+    - name: r/MinecraftCommands
+      use: examples and edge cases only
+    - name: Discord / YouTube / Forums
+      use: secondary validation, patterns, community discoveries
+
+rules:
+  - Never validate recent syntax only from a community source.
+  - Always distinguish Java Edition from Bedrock Edition.
+  - If source verification is missing, mark the claim as "À vérifier manuellement".

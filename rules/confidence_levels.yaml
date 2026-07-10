@@ -1,0 +1,14 @@
+confidence:
+  high:
+    definition: "Official or versioned technical source + clear local pattern + small diff + QA OK"
+  medium:
+    definition: "Reliable source but impact partly inferred or gameplay implication uncertain"
+  low:
+    definition: "Design suggestion, optional optimization, community-only signal, or hypothesis"
+
+required_labels:
+  - "breaking change"
+  - "migration nécessaire"
+  - "optimisation optionnelle"
+  - "nouvelle possibilité"
+  - "à vérifier manuellement"

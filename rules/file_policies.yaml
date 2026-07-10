@@ -1,0 +1,28 @@
+deny_write:
+  - ".git/**"
+  - ".vscode/**"
+  - "**/*.png"
+  - "**/*.jpg"
+  - "**/*.jpeg"
+  - "**/*.ogg"
+  - "**/*.wav"
+  - "**/*.bbmodel"
+  - "**/*.zip"
+  - "**/*.jar"
+  - "**/*.class"
+
+allow_write_text:
+  - "pack.mcmeta"
+  - "data/**/*.json"
+  - "data/**/*.mcfunction"
+  - "assets/**/*.json"
+  - "assets/**/*.mcmeta"
+  - "assets/**/*.properties"
+  - "reports/**/*.md"
+
+dangerous_commands:
+  - "git push"
+  - "git reset --hard"
+  - "del /s"
+  - "Remove-Item -Recurse"
+  - "rm -rf"

@@ -1,0 +1,1 @@
+function weapons:arcelite/ae_protect_cd

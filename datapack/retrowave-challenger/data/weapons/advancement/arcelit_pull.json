@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item":{
+         "items": [
+            "minecraft:bow"
+          ],
+          "predicates": {
+            "minecraft:custom_data": "{ae:1b}"
+          }
+      }
+    }
+  }
+  },
+  "rewards": {
+    "function": "weapons:arcelite/ae_speed"
+  }
+}

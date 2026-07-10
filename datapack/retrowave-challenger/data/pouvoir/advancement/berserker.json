@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "boire_potion_saut": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "components":{
+            "minecraft:custom_data":  "{bk:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "pouvoir:berserker/ulti"
+  }
+}

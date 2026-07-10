@@ -1,0 +1,5 @@
+function utilitaire:killdetect/killdetect
+function weapons:diff_armedelance
+function ui:init
+function utilitaire:boucle/boucle2tick
+function utilitaire:boucle/boucle_3_tick

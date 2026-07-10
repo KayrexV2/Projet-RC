@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "effects": {
+      "minecraft:water_breathing": {
+        "amplifier": 1,
+        "ambient": false,
+        "visible": false
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+tag @a[tag=bkulti] remove bkulti

@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "hit_with_axe": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:player",
+            "equipment": {
+              "mainhand": {
+                "items": ["minecraft:diamond_axe"],
+                "predicates":{
+                  "minecraft:custom_data":  "{mg:1b}"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "weapons:marteau_gravite/mg"
+  }
+}

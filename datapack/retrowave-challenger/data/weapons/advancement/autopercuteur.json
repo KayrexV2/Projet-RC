@@ -1,0 +1,17 @@
+{
+  "criteria": {
+      "very_cross": {
+          "trigger": "minecraft:shot_crossbow",
+          "conditions": {
+              "item": {
+                  "predicates":{
+                    "minecraft:custom_data":  "{autopercuteur:1b}"
+                  }
+              }
+          }
+      }
+  },
+  "rewards": {
+      "function": "weapons:autopercuteur/sy-autopercuter-v3"
+  }
+}

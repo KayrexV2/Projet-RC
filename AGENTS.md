@@ -155,3 +155,11 @@ Utilise ce format :
 ## Sources consultées
 
 ## Incertitudes / à vérifier manuellement
+
+## Sources Minecraft du projet
+
+Avant toute réponse ou modification concernant Minecraft Java, commandes, datapacks, resource packs, tags, composants d’items, shaders ou migration de version, lis `docs/sources_minecraft_projet.md` et applique sa hiérarchie de sources.
+
+Ne valide jamais une syntaxe récente sans source officielle ou technique versionnée.
+
+Si le réseau n’est pas disponible, indique clairement : `À vérifier manuellement`.

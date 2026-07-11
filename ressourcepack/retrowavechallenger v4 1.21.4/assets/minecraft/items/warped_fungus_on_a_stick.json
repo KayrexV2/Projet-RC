@@ -6,8 +6,6 @@
 
       {"when": "1",   "model": {"type": "minecraft:model",
       "model": "utilitaire:item/cniv1-v1"}},
-      {"when": "2",   "model": {"type": "minecraft:model",
-      "model": "utilitaire:item/cniv1-v2"}},
       {"when": "3",   "model": {"type": "minecraft:model",
       "model": "utilitaire:item/cniv1-v3"}},
       {"when": "4",   "model": {"type": "minecraft:model",
@@ -24,10 +22,6 @@
       "model": "utilitaire:item/cniv1-v9"}},
       {"when": "10",   "model": {"type": "minecraft:model",
       "model": "utilitaire:item/cniv1-v10"}},
-      
-      {"when": "11",   "model": {"type": "minecraft:model",
-      "model": "utilitaire:item/cniv1-v11"}},
-          
       
       {"when": "100",  "model": {"type": "minecraft:model",
       "model": "utilitaire:item/celluleenergie/celluleenergie"}},

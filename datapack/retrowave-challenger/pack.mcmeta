@@ -1,15 +1,7 @@
 {
   "pack": {
     "description": "Datapack for retrowave challenger v4.2",
-    "pack_format": 48,
-    "supported_formats": 61
-  },
-  "overlays": {
-    "entries": [
-      {
-        "directory": "retrowavechallenger v4 1.21.4",
-        "formats": 71
-      }
-    ]
+    "min_format": [101, 1],
+    "max_format": [101, 1]
   }
 }

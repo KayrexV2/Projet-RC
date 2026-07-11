@@ -11,10 +11,14 @@ Tu ne dois jamais inventer une syntaxe, un data component, un tag, un format NBT
 ## Cadre de travail
 
 - Travaille uniquement dans le workspace courant.
-- Ne modifie jamais `main` directement.
-- Travaille dans la branche ou le worktree courant.
-- Toute modification doit être proposée par diff.
-- Ne fais aucun `git push`.
+- Vérifie au début que la branche active est `main` et travaille directement dessus.
+- Ne crée pas automatiquement de branche de travail, d’audit ou de migration.
+- Ne change pas de branche sans demande explicite.
+- Tu peux créer, déplacer, renommer ou supprimer des fichiers lorsque cela est clairement nécessaire à la tâche demandée.
+- Conserve le comportement existant sauf lorsqu’une modification fonctionnelle est explicitement demandée.
+- Ne fais jamais de commit, de push ou de merge sans demande explicite.
+- Ne réécris jamais l’historique Git.
+- N’utilise jamais `git reset --hard`, `git clean -fd`, `push --force` ou une commande destructive équivalente sans autorisation explicite.
 - Ne supprime jamais de fichier sans expliquer précisément pourquoi.
 - Ne modifie jamais `.git/`, `.vscode/`, les fichiers système, les fichiers hors workspace ou les gros assets binaires.
 - Ne modifie pas les textures, sons, modèles Blockbench ou assets binaires sans demande explicite.
@@ -23,7 +27,7 @@ Tu ne dois jamais inventer une syntaxe, un data component, un tag, un format NBT
 ## Version cible par défaut
 
 - Édition par défaut : Minecraft Java Edition.
-- Version cible par défaut : Minecraft Java Edition 26.1.
+- Version cible par défaut : Minecraft Java Edition 26.1.2.
 - Version source fréquente : Minecraft Java Edition 1.21.4.
 - Bedrock Edition ne doit être traitée que si elle est explicitement demandée.
 
@@ -51,9 +55,9 @@ Avant de valider une syntaxe Minecraft récente, consulte ou demande la consulta
 
 Si le réseau n’est pas disponible, ne prétends pas avoir vérifié en ligne. Signale les points qui doivent être vérifiés manuellement.
 
-## Ce que tu dois produire pour chaque tâche importante
+## Présentation des tâches importantes
 
-Classe toujours le résultat en quatre catégories :
+Lorsque cette classification apporte une information utile, distingue :
 
 1. `breaking change`
 2. `migration nécessaire`
@@ -95,7 +99,7 @@ Resource pack :
 
 ## Règles de migration Minecraft récurrentes
 
-Pour une migration 1.21.4 vers 26.1, vérifie notamment :
+Pour une migration 1.21.4 vers 26.1.2, vérifie notamment :
 
 - format de pack datapack/resource pack ;
 - JSON strict : pas de commentaires, pas de virgules finales, pas de clés dupliquées ;
@@ -108,53 +112,48 @@ Pour une migration 1.21.4 vers 26.1, vérifie notamment :
 - modèles d’items data-driven côté resource pack ;
 - chemins d’assets et références cassées.
 
-## Workflow obligatoire
+## Workflow de travail
 
-Pour toute demande de modification :
+Pour une demande précise :
 
-1. Pré-audit en lecture seule.
-2. Plan de patch par petits lots.
-3. Demande de validation.
-4. Application uniquement sur branche/worktree courant.
-5. Affichage du diff.
-6. QA textuelle et JSON.
-7. Liste des tests in-game à faire.
-8. Rapport final Markdown.
+1. Inspecte uniquement les fichiers directement concernés.
+2. Identifie la cause probable.
+3. Propose ou applique directement les changements nécessaires.
+4. Explique brièvement ce qui était incorrect, ce qui a changé, pourquoi et comment tester.
+5. Affiche les fichiers modifiés et un résumé lisible du diff.
 
-## Format de rapport
+Ne produis pas automatiquement un audit exhaustif, un rapport d’architecture, une matrice de dépendances ou un long rapport Markdown.
 
-Utilise ce format :
+Élargis l’inspection seulement si l’utilisateur demande explicitement un audit, si la cause ne peut pas être déterminée localement, si une modification risque de casser plusieurs systèmes ou si une dépendance transversale doit être comprise. Explique alors brièvement pourquoi cette inspection est nécessaire.
 
-# Rapport Codex — Minecraft Java 26.1
+Avant une modification risquée ou ambiguë, présente le fichier et la zone concernés, l’ancienne forme, la nouvelle forme proposée et la raison. Pour une correction évidente et localisée, applique-la directement puis indique les fichiers modifiés, les changements importants, les tests et les incertitudes.
 
-## Décision rapide
+Après modification, montre le diff, attends la validation utilisateur et ne crée un commit ou un push que sur demande explicite.
 
-- Version source :
-- Version cible :
-- Édition :
-- Risque global :
-- Nombre de fichiers concernés :
-- Recommandation :
+Format de restitution préféré :
 
-## Changements critiques
+### Fichiers modifiés
 
-## Migrations nécessaires
+- chemin du fichier : ancienne forme, nouvelle forme et raison.
 
-## Optimisations optionnelles
+### Tests à effectuer
 
-## Nouvelles possibilités
+- action précise et résultat attendu.
 
-## Fichiers modifiés ou proposés
+### État Git
 
-## Diff résumé
+- branche active ;
+- fichiers modifiés ;
+- état des commits et du push.
 
-## Tests automatiques effectués
+## Couche modded ETF / EMF / ESF
 
-## Tests in-game à faire
-
-## Sources consultées
-
-## Incertitudes / à vérifier manuellement
+- ETF est la cible pour les textures d’entités aléatoires, personnalisées et émissives.
+- EMF est la cible pour les modèles d’entités CEM, leurs animations et leurs variables.
+- ESF est la cible pour les variations et utilitaires sonores liés aux entités.
+- Ne recommande pas et ne considère pas OptiFine comme une dépendance.
+- Les chemins historiques sous `assets/minecraft/optifine` sont des chemins de compatibilité de formats consommés par ETF, EMF et éventuellement ESF ; ne les renomme pas pour cette seule raison.
+- Vérifie les chemins, formats et limitations dans les dépôts et documentations officiels Traben-0. Ne suppose jamais une parité parfaite avec les formats OptiFine originaux.
 
 ## Sources Minecraft du projet
 

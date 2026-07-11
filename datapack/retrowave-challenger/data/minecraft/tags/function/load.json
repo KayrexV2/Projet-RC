@@ -1,7 +1,5 @@
 {
   "values": [
-    "weapons:init",
-    "ui:init",
-    "utilitaire:init"
+    "retrowave:load"
   ]
 }

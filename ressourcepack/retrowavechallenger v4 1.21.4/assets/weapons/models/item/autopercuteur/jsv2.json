@@ -4,7 +4,7 @@
 	"textures": {
 		"0": "weapons:item/autopercuteur/ap1",
 		"1": "weapons:item/fleche1",
-		"particle": "fleche1"
+		"particle": "#0"
 	},
 	"elements": [
 		{

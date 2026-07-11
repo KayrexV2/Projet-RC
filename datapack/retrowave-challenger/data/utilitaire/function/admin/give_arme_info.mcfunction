@@ -2,7 +2,7 @@ give @p warped_fungus_on_a_stick[minecraft:custom_data={sniper:1b,arme:1b},custo
         #tag skin
             #skin de base : skin_snip1
 give @p warped_fungus_on_a_stick[minecraft:custom_data={hs:1b,arme:1b},custom_model_data={strings:['4001']}] 1
- give @p crossbow[minecraft:custom_data={autopercuteur:1b,arme:1b},custom_model_data={strings:['1001']},charged_projectiles=[{id:"minecraft:arrow",count:1}],enchantments={levels:{"minecraft:quick_charge":5,"minecraft:piercing":3,"minecraft:infinity":1},show_in_tooltip:false},enchantment_glint_override=false] 1
+give @p crossbow[minecraft:custom_data={autopercuteur:1b,arme:1b},minecraft:custom_model_data={strings:['1001']},minecraft:charged_projectiles=[{id:"minecraft:arrow",count:1}],minecraft:enchantments={"minecraft:quick_charge":5,"minecraft:piercing":3,"minecraft:infinity":1},minecraft:tooltip_display={hidden_components:["minecraft:enchantments"]},minecraft:enchantment_glint_override=false] 1
 give @p bow[minecraft:custom_data={af:1b,arme:1b}] 1
 give @p warped_fungus_on_a_stick[minecraft:custom_data={mk:1b,arme:1b},custom_model_data={strings:['3001']}] 1
         #tag skin

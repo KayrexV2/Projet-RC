@@ -1,0 +1,56 @@
+name: "Fonctionnalité"
+description: "Définir une évolution et ses critères de validation."
+title: "[Fonctionnalité] "
+body:
+  - type: markdown
+    attributes:
+      value: "Décrire uniquement les informations publiables. Ne pas copier de contenu privé de Notion."
+  - type: textarea
+    id: objective
+    attributes:
+      label: "Objectif"
+      description: "Quel besoin et quel résultat attendu ? Préciser le périmètre."
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: "Composant(s)"
+      multiple: true
+      options:
+        - "Datapack"
+        - "Resource pack"
+        - "Mod"
+        - "Outils"
+        - "Documentation"
+    validations:
+      required: true
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: "Version Minecraft Java visée"
+      description: "Version exacte ; préciser Sans objet pour une tâche indépendante de Minecraft."
+      placeholder: "26.1.2 ou Sans objet"
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "Critères d'acceptation"
+      description: "Résultats observables nécessaires pour valider la fonctionnalité."
+    validations:
+      required: true
+  - type: textarea
+    id: tests
+    attributes:
+      label: "Tests prévus"
+      description: "Scénarios, résultat attendu, environnement et interactions entre composants."
+    validations:
+      required: true
+  - type: input
+    id: notion
+    attributes:
+      label: "Lien Notion"
+      description: "Facultatif ; le lien conserve ses droits d'accès."
+    validations:
+      required: false

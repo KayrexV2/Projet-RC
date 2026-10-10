@@ -1,0 +1,70 @@
+name: "Bug"
+description: "Signaler un défaut reproductible et définir sa validation."
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Ne pas copier de contenu privé de Notion. Expurger les informations privées des journaux."
+  - type: textarea
+    id: objective
+    attributes:
+      label: "Objectif de la correction et comportement attendu"
+      description: "Quel comportement devrait être rétabli ?"
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: "Composant(s)"
+      multiple: true
+      options:
+        - "Datapack"
+        - "Resource pack"
+        - "Mod"
+        - "Outils"
+        - "Documentation"
+    validations:
+      required: true
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: "Version Minecraft Java observée"
+      description: "Version exacte ; préciser Sans objet si le défaut est indépendant de Minecraft."
+      placeholder: "26.1.2 ou Sans objet"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: "Reproduction et résultat observé"
+      description: "Étapes, fréquence, environnement client/serveur, révision des packs et mods avec versions si pertinents."
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "Critères d'acceptation"
+      description: "Résultats vérifiables montrant que le défaut est corrigé."
+    validations:
+      required: true
+  - type: textarea
+    id: tests
+    attributes:
+      label: "Tests effectués et tests de correction prévus"
+      description: "Résultats observés, résultats attendus et vérifications encore nécessaires."
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "Éléments utiles"
+      description: "Extraits de logs expurgés ou captures sans informations privées, si disponibles."
+    validations:
+      required: false
+  - type: input
+    id: notion
+    attributes:
+      label: "Lien Notion"
+      description: "Facultatif ; le lien conserve ses droits d'accès."
+    validations:
+      required: false
